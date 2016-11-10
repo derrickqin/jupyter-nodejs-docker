@@ -1,5 +1,3 @@
-https://github.com/notablemind/jupyter-nodejs
-
 # Jupyter NodeJS notebook docker
 This is a kernel for [Jupyter](http://github.com/ipython/ipython), previous unknow as ipython notebook
 
@@ -14,6 +12,8 @@ docker run -v $(pwd)/notebooks:/notebook -p 8888:8888 jupyter-nodejs
 ```
 
 Jupyter will run in notebooks folder under your current directory. Then just visit http://localhost.8888
+
+**Below is the introduction from notablemind**
 
 ![image](https://cloud.githubusercontent.com/assets/112170/7268108/70cade4e-e882-11e4-95e7-8a7375b3b888.png)
 
@@ -35,7 +35,7 @@ class Awesome {
 }
 ```
 
-**Hovever:** `import ...` syntax *doesn't work* because of [live bindings](https://github.com/ModuleLoader/es6-module-loader/wiki/Circular-References-&-Bindings#es6-circular-references--bindings) foo, so just use `require()` normally and all will be well.
+**However:** `import ...` syntax *doesn't work* because of [live bindings](https://github.com/ModuleLoader/es6-module-loader/wiki/Circular-References-&-Bindings#es6-circular-references--bindings) foo, so just use `require()` normally and all will be well.
 
 ## Clojurescript compilation via a [himera](https://github.com/fogus/himera) server
 
